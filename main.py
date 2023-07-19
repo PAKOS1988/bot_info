@@ -9,7 +9,7 @@ from geopy.geocoders import Nominatim
 
 
 
-bot=Bot('ТОКЕН')
+bot=Bot('5923838921:AAGm8F0gCi0unnxqCxTN2hw950N22zbASyg')
 dp=Dispatcher(bot, storage=MemoryStorage())
 
 @dp.message_handler(commands=['start'])
